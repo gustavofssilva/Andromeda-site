@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #222222;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.menu-bg {
+    background-color: #0835a9;
+}
+.menu-bg2{
+    background-color: #de8825;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.50em;
+    display: block;
+    margin: 15px;
+}
+
+.menu-nav a:hover {
+    color:#b2fcff ;
+}
+
+
+
+.menu-nav2 ul {
+    display: flex;
+    
+}
+
+.menu-nav2 a {
+    font-size: 0.9em;
+    display: block;
+    margin: 15px;
+}
+
+
+
+
+
+/* introdução */
+
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    
+}
+
+/* Sobre */
+
+.sobre {
+   
+    border-bottom: 2px solid #94B447  ;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+    
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+
+}
+.p1 {
+    text-align: justify;
+}
+.pDestinos {
+    text-align: justify;
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0px 10px;
+
+}
+
+/* Hospedagem */
+
+.Hospedagem {
+    border-bottom: 2px solid #94B447  ;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Hospedagem-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.Hospedagem-info h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+    
+}
+
+.Hospedagem-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.Hospedagem-img {
+    flex: 1 1 160px;
+    margin: 0px 10px;
+}
+
+/* lugares */
+
+.Destinos {
+	max-width: 960px;
+	margin: 60px auto;
+}
+
+.Destinos h1 {
+	font-size: 3em;
+	margin: 0 10px 60px 10px
+}
+
+.Destinos-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.Destinos-item {
+	flex: 1 1 175px;
+	margin: 10px;
+}
+
+.Destinos-item h2 {
+	font-size: 3em;
+	color: #a4a4a4;
+	background: #f7f7f7;
+	padding: 60px 20px;
+}
+
+.green {
+	border-top: 8px solid #0f9b22;
+}
+
+.pink {
+	border-top: 8px solid #f192e5;
+}
+
+.blue {
+	border-top: 8px solid #66d9eb;
+}
+
+.brown {
+	border-top: 8px solid #8d3a02;
+}
+
+.pDestinos {
+    margin-top: 10px;
+    font-size: 1.25em; 
+    line-height: 1.4; 
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.footer {
+	display: flex;
+	background: #3B5284;
+	height: 200px;
+	align-items: center;
+}
+
+.footer p {
+	flex: 1;
+	text-align: center;
+	font-size: 2.25em;
+	color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+ }
+
+
+@media (max-width: 350px) {
+   
+   .sobre-img{
+    margin-bottom: 10px;
+   }
+   
+    .Hospedagem-img{
+        margin-bottom: 10px;
+    }
+    .footer {
+        display: flex;
+        background: #FFF;
+        height: 150px;
+        align-items: center;
+    }
+    
+    .footer p {
+        flex: 1;
+        text-align: center;
+        font-size: 1.25em;
+        color: #7c7c7c;
+    }
+}
+
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background:  "#29d";
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 2px;
+  }
+  
+
+
+
+
+
+
+  
